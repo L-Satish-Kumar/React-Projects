@@ -1,0 +1,47 @@
+.app {
+  min-height: 100vh;
+  width: 100%;
+  transition: background-color 200ms ease;
+}
+
+.title {
+  margin: 0;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: #111827;
+}
+
+.controls {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.75rem;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+}
+
+.color-btn {
+  border: none;
+  border-radius: 999px;
+  padding: 0.55rem 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #ef4444;
+}
+
+.blue {
+  background-color: #3b82f6;
+}
+
+.green {
+  background-color: #22c55e;
+}
